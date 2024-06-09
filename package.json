@@ -14,15 +14,16 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-        "eslint --fix"
+      "eslint --fix"
     ]
-},
-"husky": {
-  "hooks": {
+  },
+  "husky": {
+    "hooks": {
       "pre-commit": "yarn precommit"
-  }
-},
+    }
+  },
   "dependencies": {
+    "commitlint": "19.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
